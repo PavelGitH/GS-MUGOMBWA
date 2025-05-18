@@ -361,4 +361,116 @@ body {
   .checkbox-inline input {
     margin: 0;
   }
-  
+
+/* ===== MOBILE ADAPTATION ===== */
+@media (max-width: 768px) {
+
+  /* Шапка */
+  header {
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  /* Карусель */
+  .carousel-container {
+    height: 60vh;
+  }
+
+  .carousel,
+  .carousel-item {
+    height: 60vh;
+  }
+
+  .school-name {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* About Section */
+  .about-school-content {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .about-image,
+  .about-text {
+    margin: 0;
+    width: 100%;
+  }
+
+  .about-text {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  /* Statistics */
+  .stats-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .stat-number {
+    font-size: 48px;
+  }
+
+  .stat-label {
+    font-size: 18px;
+  }
+
+  /* Gallery */
+  #gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .gallery-title {
+    font-size: 28px;
+  }
+
+  /* Контакты */
+  .contact-section {
+    padding: 30px 20px;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .info-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-box {
+    width: 100%;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  .form-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .subscribe-box input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-box button {
+    width: 100%;
+  }
+}
+
