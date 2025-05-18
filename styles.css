@@ -539,6 +539,7 @@ body {
 
   .checkbox-inline input {
     margin: 0;
+    width: 20%;
     flex-shrink: 0;
   }
 
