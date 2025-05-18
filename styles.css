@@ -533,8 +533,8 @@ body {
     align-items: center;
     gap: 6px;
     font-size: 0.95rem;
-    white-space: normal;
     max-width: 20%;
+    white-space: nowrap;
   }
 
   .checkbox-inline input {
