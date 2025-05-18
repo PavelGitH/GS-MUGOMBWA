@@ -543,9 +543,15 @@ body {
     flex-shrink: 0;
   }
 
+  .subscribe-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .subscribe-box input {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 100% !important;
+    margin: 0 0 10px 0;
   }
 
   .subscribe-box button {
