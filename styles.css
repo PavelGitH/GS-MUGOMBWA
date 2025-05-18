@@ -501,10 +501,14 @@ body {
   .info-grid {
     flex-direction: column;
     align-items: center;
+    padding: 0 16px; /* делаем отступы по краям, чтобы не прилипало */
+    box-sizing: border-box;
   }
 
   .info-box {
     width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 
   form {
