@@ -470,13 +470,10 @@ body {
   }
 
   #map {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  #map iframe {
-    height: 300px; /* меньше высота на мобильных */
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box;
   }
 
   /* Gallery */
