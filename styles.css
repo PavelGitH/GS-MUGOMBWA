@@ -529,8 +529,17 @@ body {
   }
 
   .checkbox-inline {
-    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     font-size: 0.95rem;
+    white-space: normal;
+    max-width: 100%;
+  }
+
+  .checkbox-inline input {
+    margin: 0;
+    flex-shrink: 0;
   }
 
   .subscribe-box input {
