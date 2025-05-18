@@ -401,10 +401,28 @@ body {
   }
 
   /* About Section */
-  .about-school-content {
-    flex-direction: column;
-    padding: 10px;
-  }
+
+ .about-school {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px;
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+ .about-school-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Добавляем это! */
+  margin: 0 10px; /* Немного отступов по бокам */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
 
   .about-image,
   .about-text {
