@@ -511,7 +511,7 @@ body {
     margin-bottom: 20px;
   }
 
-   form {
+ form {
     padding: 16px 16px;
     box-sizing: border-box;
   }
@@ -529,19 +529,17 @@ body {
   }
 
   .checkbox-inline {
-    flex-shrink: 1;
-    font-size: 0.85rem;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
+    justify-content: flex-start;
+    font-size: 0.95rem;
   }
 
-  .checkbox-inline input {
-    margin-right: 6px;
+  .subscribe-box input {
+    width: 100%;
+    margin-bottom: 10px;
   }
 
-  button {
-    flex-shrink: 0;
+  .subscribe-box button {
+    width: 100%;
   }
 }
 
