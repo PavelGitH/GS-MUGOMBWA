@@ -469,6 +469,16 @@ body {
     font-size: 18px;
   }
 
+  #map {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #map iframe {
+    height: 300px; /* меньше высота на мобильных */
+  }
+
   /* Gallery */
   #gallery {
     grid-template-columns: repeat(2, 1fr);
